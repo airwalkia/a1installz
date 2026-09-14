@@ -1,5 +1,6 @@
 /* A1 Installz — editorial marketing site */
 :root {
+  color-scheme: light;
   --black: #111111;
   --ink: #000000;
   --white: #ffffff;
@@ -139,6 +140,17 @@ a:hover { opacity: .75; }
 .btn-ghost:hover { background: var(--off); }
 .btn-lg { padding: 1rem 1.5rem; font-size: 1rem; }
 .header-cta { white-space: nowrap; }
+/* Header Call button lives inside .site-nav; nav link color must not win over .btn-primary */
+.site-nav a.btn-primary,
+.site-nav a.btn-primary:visited {
+  color: var(--white);
+}
+.site-nav a.btn-primary:hover {
+  color: var(--white);
+  background: #333;
+  opacity: 1;
+}
+
 
 @media (max-width: 860px) {
   .nav-toggle { display: inline-flex; }
