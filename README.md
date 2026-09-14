@@ -52,7 +52,7 @@ Point the apex domain and `www` as follows (GitHub Pages):
 ## Contact (site CTAs)
 
 - Phone: (626) 290-6211
-- Email: airwalkia@gmail.com
+- Email: michael@a1installz.com
 - Base: San Marino, CA 91108 (appointment service — not a retail storefront)
 
 ## Stack
